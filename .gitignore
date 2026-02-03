@@ -96,3 +96,6 @@ coverage.xml
 
 # Keep empty directories
 !.gitkeep
+
+# manuscript
+.tex
