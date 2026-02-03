@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+
+# Data files (large, should be downloaded separately)
+data/mnist/
+data/covertype/
+data/higgs/
+*.csv
+*.gz
+!requirements.txt
+
+# Logs
+logs/
+*.log
+
+# Results (uncomment if you want to track results)
+# results/
+# baselines/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Environments
+.env
+.env.local
+*.env
+
+# Model checkpoints (if any)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Keep empty directories
+!.gitkeep

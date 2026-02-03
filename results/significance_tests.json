@@ -1,0 +1,539 @@
+{
+  "timestamp": "2026-01-31T13:14:44.192616",
+  "results": {
+    "covertype_rf": {
+      "id_test": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.8518611999999999,
+          "baseline_mean": 0.0,
+          "diff": 0.8518611999999999,
+          "t_statistic": 801.538430029176,
+          "p_value": 3.7284368937111994e-23,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.8518611999999999,
+          "baseline_mean": 0.286838,
+          "diff": 0.5650232,
+          "t_statistic": 226.5276461043036,
+          "p_value": 3.2394280908739614e-18,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.8518611999999999,
+          "baseline_mean": 0.8597292,
+          "diff": -0.007868000000000097,
+          "t_statistic": -7.919979202955589,
+          "p_value": 2.3983798514427524e-05,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "near_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.547168,
+          "baseline_mean": 0.0,
+          "diff": 0.547168,
+          "t_statistic": 9.006402693021693,
+          "p_value": 8.488520559005785e-06,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.547168,
+          "baseline_mean": 0.11045600000000003,
+          "diff": 0.436712,
+          "t_statistic": 7.18801169849148,
+          "p_value": 5.1495655377257e-05,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.547168,
+          "baseline_mean": 0.8317745999999999,
+          "diff": -0.28460659999999993,
+          "t_statistic": -4.681097184338673,
+          "p_value": 0.0011504228464733481,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "far_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.8029844,
+          "baseline_mean": 0.0,
+          "diff": 0.8029844,
+          "t_statistic": 94.60743297270349,
+          "p_value": 8.351373671939194e-15,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.8029844,
+          "baseline_mean": 0.36049000000000003,
+          "diff": 0.4424944,
+          "t_statistic": 60.23560921027398,
+          "p_value": 4.828246993526013e-13,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.8029844,
+          "baseline_mean": 0.875362,
+          "diff": -0.07237759999999993,
+          "t_statistic": -8.15954958533173,
+          "p_value": 1.889768236249065e-05,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      }
+    },
+    "covertype_gbm": {
+      "id_test": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.7940502,
+          "baseline_mean": 0.0,
+          "diff": 0.7940502,
+          "t_statistic": 230.28121831790932,
+          "p_value": 2.7941046050059316e-18,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.7940502,
+          "baseline_mean": 0.022847799999999984,
+          "diff": 0.7712024000000001,
+          "t_statistic": 234.58443594731554,
+          "p_value": 2.3653071049722285e-18,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.7940502,
+          "baseline_mean": 0.8018382,
+          "diff": -0.007787999999999906,
+          "t_statistic": -7.766292656229157,
+          "p_value": 2.8028832848694598e-05,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "near_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.5034915999999999,
+          "baseline_mean": 0.0,
+          "diff": 0.5034915999999999,
+          "t_statistic": 8.7415601217805,
+          "p_value": 1.082918367592486e-05,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.5034915999999999,
+          "baseline_mean": 0.03078780000000001,
+          "diff": 0.4727037999999999,
+          "t_statistic": 8.171090523574733,
+          "p_value": 1.8684540632854212e-05,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.5034915999999999,
+          "baseline_mean": 0.8000907999999999,
+          "diff": -0.29659919999999995,
+          "t_statistic": -5.036023124932265,
+          "p_value": 0.0007035795577268001,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "far_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.807232,
+          "baseline_mean": 0.0,
+          "diff": 0.807232,
+          "t_statistic": 95.55340375918142,
+          "p_value": 7.636686278029561e-15,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.807232,
+          "baseline_mean": 0.10979679999999999,
+          "diff": 0.6974351999999999,
+          "t_statistic": 86.33784875931204,
+          "p_value": 1.9007106737781508e-14,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.807232,
+          "baseline_mean": 0.8814347999999999,
+          "diff": -0.0742027999999999,
+          "t_statistic": -8.243012960113273,
+          "p_value": 1.7414294228923323e-05,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      }
+    },
+    "higgs_rf": {
+      "id_test": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.5857897999999999,
+          "baseline_mean": 0.0,
+          "diff": 0.5857897999999999,
+          "t_statistic": 310.41321011538463,
+          "p_value": 1.9021428873560334e-19,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.5857897999999999,
+          "baseline_mean": 0.04914,
+          "diff": 0.5366498,
+          "t_statistic": 213.6597392081609,
+          "p_value": 5.482976077678813e-18,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.5857897999999999,
+          "baseline_mean": 0.7307862,
+          "diff": -0.14499640000000014,
+          "t_statistic": -127.30796697766432,
+          "p_value": 5.783413825117758e-16,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "near_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.3396262,
+          "baseline_mean": 0.0,
+          "diff": 0.3396262,
+          "t_statistic": 130.70543936683737,
+          "p_value": 4.563438037382086e-16,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.3396262,
+          "baseline_mean": 0.011355999999999932,
+          "diff": 0.32827020000000007,
+          "t_statistic": 124.91821858820354,
+          "p_value": 6.8582669550262e-16,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.3396262,
+          "baseline_mean": 0.655717,
+          "diff": -0.3160908,
+          "t_statistic": -193.19036145886324,
+          "p_value": 1.3569797313767846e-17,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "far_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.3783746,
+          "baseline_mean": 0.0,
+          "diff": 0.3783746,
+          "t_statistic": 159.71756015965232,
+          "p_value": 7.517442532123978e-17,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.3783746,
+          "baseline_mean": 0.01862799999999999,
+          "diff": 0.3597466,
+          "t_statistic": 154.49613697150826,
+          "p_value": 1.0137769921597521e-16,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.3783746,
+          "baseline_mean": 0.6883012,
+          "diff": -0.30992659999999994,
+          "t_statistic": -157.2496306821052,
+          "p_value": 8.648038073678682e-17,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      }
+    },
+    "higgs_gbm": {
+      "id_test": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.5677204,
+          "baseline_mean": 0.0,
+          "diff": 0.5677204,
+          "t_statistic": 114.57486935479704,
+          "p_value": 1.4922749494249279e-15,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.5677204,
+          "baseline_mean": 0.000837600000000005,
+          "diff": 0.5668828,
+          "t_statistic": 114.17076728748694,
+          "p_value": 1.5404594662344092e-15,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.5677204,
+          "baseline_mean": 0.7258191999999999,
+          "diff": -0.15809879999999987,
+          "t_statistic": -127.67241262256817,
+          "p_value": 5.63659132186221e-16,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "near_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.37399319999999997,
+          "baseline_mean": 0.0,
+          "diff": 0.37399319999999997,
+          "t_statistic": 79.01516961025678,
+          "p_value": 4.2161617560636976e-14,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.37399319999999997,
+          "baseline_mean": 0.0005587999999999704,
+          "diff": 0.3734344,
+          "t_statistic": 78.86257855715357,
+          "p_value": 4.2900553059950116e-14,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.37399319999999997,
+          "baseline_mean": 0.7096864,
+          "diff": -0.3356932000000001,
+          "t_statistic": -154.17204738807297,
+          "p_value": 1.0331121682831431e-16,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "far_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.40120279999999997,
+          "baseline_mean": 0.0,
+          "diff": 0.40120279999999997,
+          "t_statistic": 94.02057804960239,
+          "p_value": 8.831950844702013e-15,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.40120279999999997,
+          "baseline_mean": 0.000699599999999978,
+          "diff": 0.4005032,
+          "t_statistic": 93.75361264491225,
+          "p_value": 9.06067360676537e-15,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.40120279999999997,
+          "baseline_mean": 0.7444364,
+          "diff": -0.3432336,
+          "t_statistic": -156.35323202951142,
+          "p_value": 9.104479006834602e-17,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      }
+    },
+    "mnist_rf": {
+      "id_test": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.6790148,
+          "baseline_mean": 0.0,
+          "diff": 0.6790148,
+          "t_statistic": 648.7178530933292,
+          "p_value": 2.5022470434313686e-22,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.6790148,
+          "baseline_mean": 0.326896,
+          "diff": 0.3521188,
+          "t_statistic": 178.66163300400802,
+          "p_value": 2.7421314508726857e-17,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.6790148,
+          "baseline_mean": 0.8761448,
+          "diff": -0.19712999999999992,
+          "t_statistic": -130.12173283058655,
+          "p_value": 4.750924786015879e-16,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "near_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.031964000000000006,
+          "baseline_mean": 0.0,
+          "diff": 0.031964000000000006,
+          "t_statistic": 20.890642596900033,
+          "p_value": 6.180636080048637e-09,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.031964000000000006,
+          "baseline_mean": 0.002870000000000006,
+          "diff": 0.029094000000000002,
+          "t_statistic": 20.146988487398716,
+          "p_value": 8.511582567684798e-09,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.031964000000000006,
+          "baseline_mean": 0.6440210000000001,
+          "diff": -0.6120570000000001,
+          "t_statistic": -106.79271450425263,
+          "p_value": 2.8092778512953283e-15,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "far_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.0035258000000000012,
+          "baseline_mean": 0.0,
+          "diff": 0.0035258000000000012,
+          "t_statistic": 9.804875260196942,
+          "p_value": 4.2149852177703506e-06,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.0035258000000000012,
+          "baseline_mean": 1.7999999999995796e-05,
+          "diff": 0.0035078000000000054,
+          "t_statistic": 9.83071089816601,
+          "p_value": 4.1239171149289474e-06,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.0035258000000000012,
+          "baseline_mean": 0.44957340000000007,
+          "diff": -0.44604760000000004,
+          "t_statistic": -39.52763488311997,
+          "p_value": 2.111340748655264e-11,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      }
+    },
+    "mnist_gbm": {
+      "id_test": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.6263888000000001,
+          "baseline_mean": 0.0,
+          "diff": 0.6263888000000001,
+          "t_statistic": 403.6417786108546,
+          "p_value": 1.7898131369843233e-20,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.6263888000000001,
+          "baseline_mean": 0.35975080000000004,
+          "diff": 0.26663800000000004,
+          "t_statistic": 193.29233757502715,
+          "p_value": 1.3505515451133764e-17,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.6263888000000001,
+          "baseline_mean": 0.8135844000000001,
+          "diff": -0.18719560000000002,
+          "t_statistic": -151.41145226950545,
+          "p_value": 1.215472017841198e-16,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "near_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.02018019999999997,
+          "baseline_mean": 0.0,
+          "diff": 0.02018019999999997,
+          "t_statistic": 16.67661431862929,
+          "p_value": 4.4802559124911045e-08,
+          "significant_0.05": true,
+          "significant_0.01": true
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.02018019999999997,
+          "baseline_mean": 0.01866399999999998,
+          "diff": 0.0015161999999999919,
+          "t_statistic": 1.4255962582688584,
+          "p_value": 0.1877318596164609,
+          "significant_0.05": false,
+          "significant_0.01": false
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.02018019999999997,
+          "baseline_mean": 0.5880362,
+          "diff": -0.567856,
+          "t_statistic": -118.9912787221774,
+          "p_value": 1.0619539436037477e-15,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      },
+      "far_ood": {
+        "vs_full_inference_work": {
+          "proposed_mean": 0.001537400000000011,
+          "baseline_mean": 0.0,
+          "diff": 0.001537400000000011,
+          "t_statistic": 2.9406638069191726,
+          "p_value": 0.01646895385505073,
+          "significant_0.05": true,
+          "significant_0.01": false
+        },
+        "vs_uncalibrated_lazy_work": {
+          "proposed_mean": 0.001537400000000011,
+          "baseline_mean": 0.0569178,
+          "diff": -0.05538039999999999,
+          "t_statistic": -1.9957508819179088,
+          "p_value": 0.0770789806816255,
+          "significant_0.05": false,
+          "significant_0.01": false
+        },
+        "vs_constant_threshold_work": {
+          "proposed_mean": 0.001537400000000011,
+          "baseline_mean": 0.5755114,
+          "diff": -0.573974,
+          "t_statistic": -24.064229748047882,
+          "p_value": 1.7665268712853355e-09,
+          "significant_0.05": true,
+          "significant_0.01": true
+        }
+      }
+    }
+  }
+}

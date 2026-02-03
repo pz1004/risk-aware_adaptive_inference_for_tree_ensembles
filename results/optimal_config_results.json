@@ -1,0 +1,1914 @@
+{
+  "timestamp": "2026-01-31T12:56:07.312618",
+  "n_runs": 10,
+  "results": {
+    "covertype_rf": {
+      "config": {
+        "hard_gate_threshold": 0.9,
+        "delta_id": 0.03,
+        "delta_suspicious": 0.001
+      },
+      "n_runs": 10,
+      "runs": [
+        {
+          "seed": 42,
+          "id_test": {
+            "accuracy": 0.859,
+            "disagreement_rate": 0.0192,
+            "work_reduction": 0.840492,
+            "mean_stop_time": 15.9508,
+            "early_exit_error_rate": 0.019350937311026002
+          },
+          "near_ood": {
+            "accuracy": 0.7456,
+            "disagreement_rate": 0.0014,
+            "work_reduction": 0.562214,
+            "mean_stop_time": 43.7786,
+            "early_exit_error_rate": 0.0015527950310559005
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0074,
+            "work_reduction": 0.816816,
+            "mean_stop_time": 18.3184,
+            "early_exit_error_rate": 0.0075866311256920236
+          },
+          "near_auroc": 0.989316,
+          "far_auroc": 0.7645642
+        },
+        {
+          "seed": 43,
+          "id_test": {
+            "accuracy": 0.86,
+            "disagreement_rate": 0.0178,
+            "work_reduction": 0.834256,
+            "mean_stop_time": 16.5744,
+            "early_exit_error_rate": 0.01797979797979798
+          },
+          "near_ood": {
+            "accuracy": 0.7476,
+            "disagreement_rate": 0.0018,
+            "work_reduction": 0.559804,
+            "mean_stop_time": 44.0196,
+            "early_exit_error_rate": 0.0020062416406598305
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0048,
+            "work_reduction": 0.81938,
+            "mean_stop_time": 18.062,
+            "early_exit_error_rate": 0.004908979341378605
+          },
+          "near_auroc": 0.9886913599999999,
+          "far_auroc": 0.76499736
+        },
+        {
+          "seed": 44,
+          "id_test": {
+            "accuracy": 0.8626,
+            "disagreement_rate": 0.0208,
+            "work_reduction": 0.842452,
+            "mean_stop_time": 15.7548,
+            "early_exit_error_rate": 0.02095506749949627
+          },
+          "near_ood": {
+            "accuracy": 0.7478,
+            "disagreement_rate": 0.0056,
+            "work_reduction": 0.590822,
+            "mean_stop_time": 40.9178,
+            "early_exit_error_rate": 0.00617011899515205
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0088,
+            "work_reduction": 0.831846,
+            "mean_stop_time": 16.8154,
+            "early_exit_error_rate": 0.008964955175224124
+          },
+          "near_auroc": 0.98961948,
+          "far_auroc": 0.76878344
+        },
+        {
+          "seed": 45,
+          "id_test": {
+            "accuracy": 0.8648,
+            "disagreement_rate": 0.02,
+            "work_reduction": 0.8420259999999999,
+            "mean_stop_time": 15.7974,
+            "early_exit_error_rate": 0.020145044319097503
+          },
+          "near_ood": {
+            "accuracy": 0.758,
+            "disagreement_rate": 0.0084,
+            "work_reduction": 0.617824,
+            "mean_stop_time": 38.2176,
+            "early_exit_error_rate": 0.009156311314584695
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0106,
+            "work_reduction": 0.83365,
+            "mean_stop_time": 16.635,
+            "early_exit_error_rate": 0.01077893024201749
+          },
+          "near_auroc": 0.9894004,
+          "far_auroc": 0.75880112
+        },
+        {
+          "seed": 46,
+          "id_test": {
+            "accuracy": 0.8658,
+            "disagreement_rate": 0.0206,
+            "work_reduction": 0.8445819999999999,
+            "mean_stop_time": 15.5418,
+            "early_exit_error_rate": 0.02069935691318328
+          },
+          "near_ood": {
+            "accuracy": 0.7424,
+            "disagreement_rate": 0.0158,
+            "work_reduction": 0.682538,
+            "mean_stop_time": 31.7462,
+            "early_exit_error_rate": 0.016663151233916894
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0074,
+            "work_reduction": 0.845044,
+            "mean_stop_time": 15.4956,
+            "early_exit_error_rate": 0.007497467071935157
+          },
+          "near_auroc": 0.9924208800000001,
+          "far_auroc": 0.76644944
+        },
+        {
+          "seed": 47,
+          "id_test": {
+            "accuracy": 0.8702,
+            "disagreement_rate": 0.0196,
+            "work_reduction": 0.8373999999999999,
+            "mean_stop_time": 16.26,
+            "early_exit_error_rate": 0.019805982215036377
+          },
+          "near_ood": {
+            "accuracy": 0.7588,
+            "disagreement_rate": 0.0174,
+            "work_reduction": 0.7284900000000001,
+            "mean_stop_time": 27.151,
+            "early_exit_error_rate": 0.018140116763969975
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.008,
+            "work_reduction": 0.83938,
+            "mean_stop_time": 16.062,
+            "early_exit_error_rate": 0.008136696501220505
+          },
+          "near_auroc": 0.98606252,
+          "far_auroc": 0.75996156
+        },
+        {
+          "seed": 48,
+          "id_test": {
+            "accuracy": 0.8548,
+            "disagreement_rate": 0.0296,
+            "work_reduction": 0.844992,
+            "mean_stop_time": 15.5008,
+            "early_exit_error_rate": 0.02970098334336745
+          },
+          "near_ood": {
+            "accuracy": 0.74,
+            "disagreement_rate": 0.0142,
+            "work_reduction": 0.6241,
+            "mean_stop_time": 37.59,
+            "early_exit_error_rate": 0.015334773218142549
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0088,
+            "work_reduction": 0.838336,
+            "mean_stop_time": 16.1664,
+            "early_exit_error_rate": 0.008930383600568297
+          },
+          "near_auroc": 0.989007,
+          "far_auroc": 0.7460583599999999
+        },
+        {
+          "seed": 49,
+          "id_test": {
+            "accuracy": 0.8584,
+            "disagreement_rate": 0.021,
+            "work_reduction": 0.839104,
+            "mean_stop_time": 16.0896,
+            "early_exit_error_rate": 0.02112251056125528
+          },
+          "near_ood": {
+            "accuracy": 0.7432,
+            "disagreement_rate": 0.0208,
+            "work_reduction": 0.689316,
+            "mean_stop_time": 31.0684,
+            "early_exit_error_rate": 0.021964097148891235
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0086,
+            "work_reduction": 0.8397060000000001,
+            "mean_stop_time": 16.0294,
+            "early_exit_error_rate": 0.00876120619396903
+          },
+          "near_auroc": 0.99020192,
+          "far_auroc": 0.76765164
+        },
+        {
+          "seed": 50,
+          "id_test": {
+            "accuracy": 0.8678,
+            "disagreement_rate": 0.0136,
+            "work_reduction": 0.841622,
+            "mean_stop_time": 15.8378,
+            "early_exit_error_rate": 0.013740149525156597
+          },
+          "near_ood": {
+            "accuracy": 0.7488,
+            "disagreement_rate": 0.008,
+            "work_reduction": 0.6143620000000001,
+            "mean_stop_time": 38.5638,
+            "early_exit_error_rate": 0.00874508089199825
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0094,
+            "work_reduction": 0.826414,
+            "mean_stop_time": 17.3586,
+            "early_exit_error_rate": 0.009589879616404815
+          },
+          "near_auroc": 0.98778804,
+          "far_auroc": 0.7669136000000001
+        },
+        {
+          "seed": 51,
+          "id_test": {
+            "accuracy": 0.8594,
+            "disagreement_rate": 0.0176,
+            "work_reduction": 0.844312,
+            "mean_stop_time": 15.5688,
+            "early_exit_error_rate": 0.017738359201773836
+          },
+          "near_ood": {
+            "accuracy": 0.7362,
+            "disagreement_rate": 0.021,
+            "work_reduction": 0.706296,
+            "mean_stop_time": 29.3704,
+            "early_exit_error_rate": 0.022026431718061675
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0092,
+            "work_reduction": 0.841712,
+            "mean_stop_time": 15.8288,
+            "early_exit_error_rate": 0.009359104781281791
+          },
+          "near_auroc": 0.9865109599999999,
+          "far_auroc": 0.76374784
+        }
+      ],
+      "aggregated": {
+        "id_test": {
+          "accuracy_mean": 0.8622799999999999,
+          "accuracy_std": 0.004552977048042295,
+          "accuracy_ci95": 0.0028219644108315703,
+          "disagreement_rate_mean": 0.019980000000000005,
+          "disagreement_rate_std": 0.003827740848072137,
+          "disagreement_rate_ci95": 0.0023724583570634067,
+          "work_reduction_mean": 0.8411237999999999,
+          "work_reduction_std": 0.0032469238919321714,
+          "work_reduction_ci95": 0.0020124642779939185,
+          "early_exit_error_rate_mean": 0.020123818886919057,
+          "early_exit_error_rate_std": 0.0038141706443352045,
+          "early_exit_error_rate_ci95": 0.002364047457647645
+        },
+        "near_ood": {
+          "accuracy_mean": 0.74684,
+          "accuracy_std": 0.006836841375957193,
+          "accuracy_ci95": 0.004237518186863638,
+          "disagreement_rate_mean": 0.011440000000000002,
+          "disagreement_rate_std": 0.007000457127931005,
+          "disagreement_rate_ci95": 0.004338928280578051,
+          "work_reduction_mean": 0.6375765999999999,
+          "work_reduction_std": 0.05719343341363589,
+          "work_reduction_ci95": 0.03544885729128462,
+          "early_exit_error_rate_mean": 0.012175911795643308,
+          "early_exit_error_rate_std": 0.007292171934279459,
+          "early_exit_error_rate_ci95": 0.004519734990768239
+        },
+        "far_ood": {
+          "accuracy_mean": 0.0,
+          "accuracy_std": 0.0,
+          "accuracy_ci95": 0.0,
+          "disagreement_rate_mean": 0.0083,
+          "disagreement_rate_std": 0.0014785127662620976,
+          "disagreement_rate_ci95": 0.0009163917066407792,
+          "work_reduction_mean": 0.8332284,
+          "work_reduction_std": 0.00909471722705001,
+          "work_reduction_ci95": 0.005636964138079156,
+          "early_exit_error_rate_mean": 0.008451423364969183,
+          "early_exit_error_rate_std": 0.0014977383138052597,
+          "early_exit_error_rate_ci95": 0.0009283078244628275
+        },
+        "near_auroc_mean": 0.988901856,
+        "near_auroc_std": 0.0017344424005149414,
+        "far_auroc_mean": 0.762792856,
+        "far_auroc_std": 0.006346251317764235
+      }
+    },
+    "covertype_gbm": {
+      "config": {
+        "hard_gate_threshold": 0.5,
+        "delta_id": 0.1,
+        "delta_suspicious": 0.001
+      },
+      "n_runs": 10,
+      "runs": [
+        {
+          "seed": 42,
+          "id_test": {
+            "accuracy": 0.7882,
+            "disagreement_rate": 0.0298,
+            "work_reduction": 0.828786,
+            "mean_stop_time": 17.1214,
+            "early_exit_error_rate": 0.030861640430820216
+          },
+          "near_ood": {
+            "accuracy": 0.7152,
+            "disagreement_rate": 0.0004,
+            "work_reduction": 0.02207199999999998,
+            "mean_stop_time": 97.7928,
+            "early_exit_error_rate": 0.015503875968992248
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0086,
+            "work_reduction": 0.729382,
+            "mean_stop_time": 27.0618,
+            "early_exit_error_rate": 0.010567707053330056
+          },
+          "near_auroc": 0.989316,
+          "far_auroc": 0.7645642
+        },
+        {
+          "seed": 43,
+          "id_test": {
+            "accuracy": 0.7894,
+            "disagreement_rate": 0.0262,
+            "work_reduction": 0.828062,
+            "mean_stop_time": 17.1938,
+            "early_exit_error_rate": 0.027038183694530444
+          },
+          "near_ood": {
+            "accuracy": 0.7192,
+            "disagreement_rate": 0.0,
+            "work_reduction": 0.011978000000000044,
+            "mean_stop_time": 98.8022,
+            "early_exit_error_rate": 0.0
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0164,
+            "work_reduction": 0.7275240000000001,
+            "mean_stop_time": 27.2476,
+            "early_exit_error_rate": 0.020107896027464444
+          },
+          "near_auroc": 0.9886913599999999,
+          "far_auroc": 0.76499736
+        },
+        {
+          "seed": 44,
+          "id_test": {
+            "accuracy": 0.7882,
+            "disagreement_rate": 0.0276,
+            "work_reduction": 0.824,
+            "mean_stop_time": 17.6,
+            "early_exit_error_rate": 0.028025995125913892
+          },
+          "near_ood": {
+            "accuracy": 0.7236,
+            "disagreement_rate": 0.0034,
+            "work_reduction": 0.10154799999999997,
+            "mean_stop_time": 89.8452,
+            "early_exit_error_rate": 0.027914614121510674
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0082,
+            "work_reduction": 0.7372019999999999,
+            "mean_stop_time": 26.2798,
+            "early_exit_error_rate": 0.009674374705049551
+          },
+          "near_auroc": 0.98961948,
+          "far_auroc": 0.76878344
+        },
+        {
+          "seed": 45,
+          "id_test": {
+            "accuracy": 0.7984,
+            "disagreement_rate": 0.0274,
+            "work_reduction": 0.839778,
+            "mean_stop_time": 16.0222,
+            "early_exit_error_rate": 0.02781161185546082
+          },
+          "near_ood": {
+            "accuracy": 0.728,
+            "disagreement_rate": 0.0068,
+            "work_reduction": 0.20427400000000007,
+            "mean_stop_time": 79.5726,
+            "early_exit_error_rate": 0.027846027846027847
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0112,
+            "work_reduction": 0.786672,
+            "mean_stop_time": 21.3328,
+            "early_exit_error_rate": 0.01267255035075809
+          },
+          "near_auroc": 0.9894004,
+          "far_auroc": 0.75880112
+        },
+        {
+          "seed": 46,
+          "id_test": {
+            "accuracy": 0.7898,
+            "disagreement_rate": 0.0272,
+            "work_reduction": 0.836444,
+            "mean_stop_time": 16.3556,
+            "early_exit_error_rate": 0.02750809061488673
+          },
+          "near_ood": {
+            "accuracy": 0.7144,
+            "disagreement_rate": 0.0142,
+            "work_reduction": 0.38342599999999993,
+            "mean_stop_time": 61.6574,
+            "early_exit_error_rate": 0.030869565217391304
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0148,
+            "work_reduction": 0.819558,
+            "mean_stop_time": 18.0442,
+            "early_exit_error_rate": 0.01613958560523446
+          },
+          "near_auroc": 0.9924208800000001,
+          "far_auroc": 0.76644944
+        },
+        {
+          "seed": 47,
+          "id_test": {
+            "accuracy": 0.797,
+            "disagreement_rate": 0.0278,
+            "work_reduction": 0.826722,
+            "mean_stop_time": 17.3278,
+            "early_exit_error_rate": 0.028131957093705726
+          },
+          "near_ood": {
+            "accuracy": 0.725,
+            "disagreement_rate": 0.0246,
+            "work_reduction": 0.5849439999999999,
+            "mean_stop_time": 41.5056,
+            "early_exit_error_rate": 0.03523345746204526
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.017,
+            "work_reduction": 0.806144,
+            "mean_stop_time": 19.3856,
+            "early_exit_error_rate": 0.018693644160985266
+          },
+          "near_auroc": 0.98606252,
+          "far_auroc": 0.75996156
+        },
+        {
+          "seed": 48,
+          "id_test": {
+            "accuracy": 0.7818,
+            "disagreement_rate": 0.0332,
+            "work_reduction": 0.842354,
+            "mean_stop_time": 15.7646,
+            "early_exit_error_rate": 0.03364410214835833
+          },
+          "near_ood": {
+            "accuracy": 0.711,
+            "disagreement_rate": 0.011,
+            "work_reduction": 0.19697199999999992,
+            "mean_stop_time": 80.3028,
+            "early_exit_error_rate": 0.047619047619047616
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0252,
+            "work_reduction": 0.785886,
+            "mean_stop_time": 21.4114,
+            "early_exit_error_rate": 0.028636363636363637
+          },
+          "near_auroc": 0.989007,
+          "far_auroc": 0.7460583599999999
+        },
+        {
+          "seed": 49,
+          "id_test": {
+            "accuracy": 0.7912,
+            "disagreement_rate": 0.0244,
+            "work_reduction": 0.833174,
+            "mean_stop_time": 16.6826,
+            "early_exit_error_rate": 0.024686361796843383
+          },
+          "near_ood": {
+            "accuracy": 0.7208,
+            "disagreement_rate": 0.0214,
+            "work_reduction": 0.45061399999999996,
+            "mean_stop_time": 54.9386,
+            "early_exit_error_rate": 0.0396590066716086
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.02,
+            "work_reduction": 0.814768,
+            "mean_stop_time": 18.5232,
+            "early_exit_error_rate": 0.02185792349726776
+          },
+          "near_auroc": 0.99020192,
+          "far_auroc": 0.76765164
+        },
+        {
+          "seed": 50,
+          "id_test": {
+            "accuracy": 0.797,
+            "disagreement_rate": 0.0252,
+            "work_reduction": 0.824704,
+            "mean_stop_time": 17.5296,
+            "early_exit_error_rate": 0.025803809133729264
+          },
+          "near_ood": {
+            "accuracy": 0.7276,
+            "disagreement_rate": 0.0068,
+            "work_reduction": 0.19788399999999995,
+            "mean_stop_time": 80.2116,
+            "early_exit_error_rate": 0.029035012809564473
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0234,
+            "work_reduction": 0.775502,
+            "mean_stop_time": 22.4498,
+            "early_exit_error_rate": 0.026915113871635612
+          },
+          "near_auroc": 0.98778804,
+          "far_auroc": 0.7669136000000001
+        },
+        {
+          "seed": 51,
+          "id_test": {
+            "accuracy": 0.7882,
+            "disagreement_rate": 0.0262,
+            "work_reduction": 0.844656,
+            "mean_stop_time": 15.5344,
+            "early_exit_error_rate": 0.0265289590927501
+          },
+          "near_ood": {
+            "accuracy": 0.706,
+            "disagreement_rate": 0.0216,
+            "work_reduction": 0.483274,
+            "mean_stop_time": 51.6726,
+            "early_exit_error_rate": 0.03804156393096161
+          },
+          "far_ood": {
+            "accuracy": 0.0,
+            "disagreement_rate": 0.0136,
+            "work_reduction": 0.80643,
+            "mean_stop_time": 19.357,
+            "early_exit_error_rate": 0.01500441306266549
+          },
+          "near_auroc": 0.9865109599999999,
+          "far_auroc": 0.76374784
+        }
+      ],
+      "aggregated": {
+        "id_test": {
+          "accuracy_mean": 0.79092,
+          "accuracy_std": 0.004887698845059913,
+          "accuracy_ci95": 0.003029427130003295,
+          "disagreement_rate_mean": 0.027500000000000004,
+          "disagreement_rate_std": 0.002371919054268083,
+          "disagreement_rate_ci95": 0.0014701306608597752,
+          "work_reduction_mean": 0.8328679999999998,
+          "work_reduction_std": 0.0071581886535631465,
+          "work_reduction_ci95": 0.004436691293020967,
+          "early_exit_error_rate_mean": 0.02800407109869989,
+          "early_exit_error_rate_std": 0.0024337782777824578,
+          "early_exit_error_rate_ci95": 0.0015084714048163694
+        },
+        "near_ood": {
+          "accuracy_mean": 0.7190799999999999,
+          "accuracy_std": 0.006956550869504237,
+          "accuracy_ci95": 0.0043117148996658,
+          "disagreement_rate_mean": 0.011019999999999999,
+          "disagreement_rate_std": 0.008614615487646561,
+          "disagreement_rate_ci95": 0.005339393997074949,
+          "work_reduction_mean": 0.26369859999999995,
+          "work_reduction_std": 0.19001019855586695,
+          "work_reduction_ci95": 0.1177695411950857,
+          "early_exit_error_rate_mean": 0.029172217164714964,
+          "early_exit_error_rate_std": 0.01268756957928883,
+          "early_exit_error_rate_ci95": 0.007863837097113729
+        },
+        "far_ood": {
+          "accuracy_mean": 0.0,
+          "accuracy_std": 0.0,
+          "accuracy_ci95": 0.0,
+          "disagreement_rate_mean": 0.01584,
+          "disagreement_rate_std": 0.005496762683616603,
+          "disagreement_rate_ci95": 0.003406928808179002,
+          "work_reduction_mean": 0.7789068,
+          "work_reduction_std": 0.033750149406484124,
+          "work_reduction_ci95": 0.020918559325112086,
+          "early_exit_error_rate_mean": 0.018026957197075436,
+          "early_exit_error_rate_std": 0.006146410163839646,
+          "early_exit_error_rate_ci95": 0.003809584488063028
+        },
+        "near_auroc_mean": 0.988901856,
+        "near_auroc_std": 0.0017344424005149414,
+        "far_auroc_mean": 0.762792856,
+        "far_auroc_std": 0.006346251317764235
+      }
+    },
+    "higgs_rf": {
+      "config": {
+        "hard_gate_threshold": 0.9,
+        "delta_id": 0.05,
+        "delta_suspicious": 0.005
+      },
+      "n_runs": 10,
+      "runs": [
+        {
+          "seed": 42,
+          "id_test": {
+            "accuracy": 0.7062,
+            "disagreement_rate": 0.0302,
+            "work_reduction": 0.628402,
+            "mean_stop_time": 37.1598,
+            "early_exit_error_rate": 0.03301989940957796
+          },
+          "near_ood": {
+            "accuracy": 0.6116,
+            "disagreement_rate": 0.0228,
+            "work_reduction": 0.411798,
+            "mean_stop_time": 58.8202,
+            "early_exit_error_rate": 0.029929115253347335
+          },
+          "far_ood": {
+            "accuracy": 0.5054,
+            "disagreement_rate": 0.016,
+            "work_reduction": 0.45741999999999994,
+            "mean_stop_time": 54.258,
+            "early_exit_error_rate": 0.019975031210986267
+          },
+          "near_auroc": 0.75106152,
+          "far_auroc": 0.7438997599999999
+        },
+        {
+          "seed": 43,
+          "id_test": {
+            "accuracy": 0.6968,
+            "disagreement_rate": 0.0306,
+            "work_reduction": 0.636004,
+            "mean_stop_time": 36.3996,
+            "early_exit_error_rate": 0.033268101761252444
+          },
+          "near_ood": {
+            "accuracy": 0.6048,
+            "disagreement_rate": 0.0212,
+            "work_reduction": 0.406714,
+            "mean_stop_time": 59.3286,
+            "early_exit_error_rate": 0.02848696586938995
+          },
+          "far_ood": {
+            "accuracy": 0.495,
+            "disagreement_rate": 0.0186,
+            "work_reduction": 0.471924,
+            "mean_stop_time": 52.8076,
+            "early_exit_error_rate": 0.022805296714075527
+          },
+          "near_auroc": 0.75756264,
+          "far_auroc": 0.7480005
+        },
+        {
+          "seed": 44,
+          "id_test": {
+            "accuracy": 0.6954,
+            "disagreement_rate": 0.0318,
+            "work_reduction": 0.630246,
+            "mean_stop_time": 36.9754,
+            "early_exit_error_rate": 0.03461036134087941
+          },
+          "near_ood": {
+            "accuracy": 0.5942,
+            "disagreement_rate": 0.0196,
+            "work_reduction": 0.40045600000000003,
+            "mean_stop_time": 59.9544,
+            "early_exit_error_rate": 0.02605689976070194
+          },
+          "far_ood": {
+            "accuracy": 0.4988,
+            "disagreement_rate": 0.016,
+            "work_reduction": 0.46404200000000007,
+            "mean_stop_time": 53.5958,
+            "early_exit_error_rate": 0.01983635011157947
+          },
+          "near_auroc": 0.75998732,
+          "far_auroc": 0.74989668
+        },
+        {
+          "seed": 45,
+          "id_test": {
+            "accuracy": 0.696,
+            "disagreement_rate": 0.0344,
+            "work_reduction": 0.6321399999999999,
+            "mean_stop_time": 36.786,
+            "early_exit_error_rate": 0.037489102005231034
+          },
+          "near_ood": {
+            "accuracy": 0.6078,
+            "disagreement_rate": 0.0202,
+            "work_reduction": 0.40607799999999994,
+            "mean_stop_time": 59.3922,
+            "early_exit_error_rate": 0.026733721545791424
+          },
+          "far_ood": {
+            "accuracy": 0.5038,
+            "disagreement_rate": 0.0158,
+            "work_reduction": 0.455882,
+            "mean_stop_time": 54.4118,
+            "early_exit_error_rate": 0.01986421926074931
+          },
+          "near_auroc": 0.7535236,
+          "far_auroc": 0.74796728
+        },
+        {
+          "seed": 46,
+          "id_test": {
+            "accuracy": 0.6948,
+            "disagreement_rate": 0.0302,
+            "work_reduction": 0.6286080000000001,
+            "mean_stop_time": 37.1392,
+            "early_exit_error_rate": 0.03283322461404653
+          },
+          "near_ood": {
+            "accuracy": 0.6044,
+            "disagreement_rate": 0.0202,
+            "work_reduction": 0.406884,
+            "mean_stop_time": 59.3116,
+            "early_exit_error_rate": 0.026649076517150396
+          },
+          "far_ood": {
+            "accuracy": 0.5042,
+            "disagreement_rate": 0.0174,
+            "work_reduction": 0.453832,
+            "mean_stop_time": 54.6168,
+            "early_exit_error_rate": 0.02171200399301223
+          },
+          "near_auroc": 0.7549349999999999,
+          "far_auroc": 0.7427033200000001
+        },
+        {
+          "seed": 47,
+          "id_test": {
+            "accuracy": 0.6964,
+            "disagreement_rate": 0.0334,
+            "work_reduction": 0.6332,
+            "mean_stop_time": 36.68,
+            "early_exit_error_rate": 0.03628068650879861
+          },
+          "near_ood": {
+            "accuracy": 0.5932,
+            "disagreement_rate": 0.0264,
+            "work_reduction": 0.42134000000000005,
+            "mean_stop_time": 57.866,
+            "early_exit_error_rate": 0.0346002621231979
+          },
+          "far_ood": {
+            "accuracy": 0.5016,
+            "disagreement_rate": 0.013,
+            "work_reduction": 0.47336,
+            "mean_stop_time": 52.664,
+            "early_exit_error_rate": 0.015986227250368912
+          },
+          "near_auroc": 0.75241696,
+          "far_auroc": 0.7473511800000001
+        },
+        {
+          "seed": 48,
+          "id_test": {
+            "accuracy": 0.6988,
+            "disagreement_rate": 0.035,
+            "work_reduction": 0.639204,
+            "mean_stop_time": 36.0796,
+            "early_exit_error_rate": 0.03797743055555555
+          },
+          "near_ood": {
+            "accuracy": 0.6124,
+            "disagreement_rate": 0.025,
+            "work_reduction": 0.426474,
+            "mean_stop_time": 57.3526,
+            "early_exit_error_rate": 0.03225806451612903
+          },
+          "far_ood": {
+            "accuracy": 0.5042,
+            "disagreement_rate": 0.0154,
+            "work_reduction": 0.48050800000000005,
+            "mean_stop_time": 51.9492,
+            "early_exit_error_rate": 0.01872568093385214
+          },
+          "near_auroc": 0.75331474,
+          "far_auroc": 0.74668576
+        },
+        {
+          "seed": 49,
+          "id_test": {
+            "accuracy": 0.7156,
+            "disagreement_rate": 0.0324,
+            "work_reduction": 0.624946,
+            "mean_stop_time": 37.5054,
+            "early_exit_error_rate": 0.03560439560439561
+          },
+          "near_ood": {
+            "accuracy": 0.6098,
+            "disagreement_rate": 0.0224,
+            "work_reduction": 0.395892,
+            "mean_stop_time": 60.4108,
+            "early_exit_error_rate": 0.030213110331804693
+          },
+          "far_ood": {
+            "accuracy": 0.478,
+            "disagreement_rate": 0.0192,
+            "work_reduction": 0.462514,
+            "mean_stop_time": 53.7486,
+            "early_exit_error_rate": 0.02389843166542196
+          },
+          "near_auroc": 0.7578676,
+          "far_auroc": 0.7437872
+        },
+        {
+          "seed": 50,
+          "id_test": {
+            "accuracy": 0.7086,
+            "disagreement_rate": 0.0312,
+            "work_reduction": 0.631734,
+            "mean_stop_time": 36.8266,
+            "early_exit_error_rate": 0.033927794693344934
+          },
+          "near_ood": {
+            "accuracy": 0.5992,
+            "disagreement_rate": 0.0206,
+            "work_reduction": 0.40744,
+            "mean_stop_time": 59.256,
+            "early_exit_error_rate": 0.027241470510446973
+          },
+          "far_ood": {
+            "accuracy": 0.5006,
+            "disagreement_rate": 0.0148,
+            "work_reduction": 0.464074,
+            "mean_stop_time": 53.5926,
+            "early_exit_error_rate": 0.018240078876016762
+          },
+          "near_auroc": 0.7587183,
+          "far_auroc": 0.74584786
+        },
+        {
+          "seed": 51,
+          "id_test": {
+            "accuracy": 0.7046,
+            "disagreement_rate": 0.0314,
+            "work_reduction": 0.616776,
+            "mean_stop_time": 38.3224,
+            "early_exit_error_rate": 0.03423462712603576
+          },
+          "near_ood": {
+            "accuracy": 0.612,
+            "disagreement_rate": 0.0184,
+            "work_reduction": 0.38656999999999997,
+            "mean_stop_time": 61.343,
+            "early_exit_error_rate": 0.024797843665768194
+          },
+          "far_ood": {
+            "accuracy": 0.5014,
+            "disagreement_rate": 0.0156,
+            "work_reduction": 0.441882,
+            "mean_stop_time": 55.8118,
+            "early_exit_error_rate": 0.0197869101978691
+          },
+          "near_auroc": 0.75663034,
+          "far_auroc": 0.7457717599999999
+        }
+      ],
+      "aggregated": {
+        "id_test": {
+          "accuracy_mean": 0.7013199999999999,
+          "accuracy_std": 0.006695789721907356,
+          "accuracy_ci95": 0.004150093465935444,
+          "disagreement_rate_mean": 0.03206,
+          "disagreement_rate_std": 0.001622467256988566,
+          "disagreement_rate_ci95": 0.0010056156243814036,
+          "work_reduction_mean": 0.630126,
+          "work_reduction_std": 0.00586001795219093,
+          "work_reduction_ci95": 0.00363207675624621,
+          "early_exit_error_rate_mean": 0.034924562361911785,
+          "early_exit_error_rate_std": 0.001746759533675728,
+          "early_exit_error_rate_ci95": 0.0010826527756016625
+        },
+        "near_ood": {
+          "accuracy_mean": 0.60494,
+          "accuracy_std": 0.006841666463662226,
+          "accuracy_ci95": 0.004240508807207002,
+          "disagreement_rate_mean": 0.02168,
+          "disagreement_rate_std": 0.0023650792798551178,
+          "disagreement_rate_ci95": 0.0014658913247577396,
+          "work_reduction_mean": 0.40696460000000007,
+          "work_reduction_std": 0.010920695877095024,
+          "work_reduction_ci95": 0.006768717430703582,
+          "early_exit_error_rate_mean": 0.028696653009372786,
+          "early_exit_error_rate_std": 0.0028936320467294256,
+          "early_exit_error_rate_ci95": 0.0017934917237114741
+        },
+        "far_ood": {
+          "accuracy_mean": 0.4993,
+          "accuracy_std": 0.007676587783644503,
+          "accuracy_ci95": 0.004757998402689939,
+          "disagreement_rate_mean": 0.016180000000000003,
+          "disagreement_rate_std": 0.001721510964240425,
+          "disagreement_rate_ci95": 0.0010670035501346745,
+          "work_reduction_mean": 0.4625438,
+          "work_reduction_std": 0.010515303911918107,
+          "work_reduction_ci95": 0.0065174528875058,
+          "early_exit_error_rate_mean": 0.020083023021393167,
+          "early_exit_error_rate_std": 0.002164539675895198,
+          "early_exit_error_rate_ci95": 0.0013415955904797717
+        },
+        "near_auroc_mean": 0.7556018019999999,
+        "near_auroc_std": 0.002823712535389525,
+        "far_auroc_mean": 0.74619113,
+        "far_auroc_std": 0.002126917588177788
+      }
+    },
+    "higgs_gbm": {
+      "config": {
+        "hard_gate_threshold": 0.9,
+        "delta_id": 0.1,
+        "delta_suspicious": 0.005
+      },
+      "n_runs": 10,
+      "runs": [
+        {
+          "seed": 42,
+          "id_test": {
+            "accuracy": 0.6978,
+            "disagreement_rate": 0.023,
+            "work_reduction": 0.670984,
+            "mean_stop_time": 32.9016,
+            "early_exit_error_rate": 0.025324818321955517
+          },
+          "near_ood": {
+            "accuracy": 0.617,
+            "disagreement_rate": 0.0204,
+            "work_reduction": 0.49600200000000005,
+            "mean_stop_time": 50.3998,
+            "early_exit_error_rate": 0.025525525525525526
+          },
+          "far_ood": {
+            "accuracy": 0.4994,
+            "disagreement_rate": 0.0138,
+            "work_reduction": 0.548748,
+            "mean_stop_time": 45.1252,
+            "early_exit_error_rate": 0.016804676083779835
+          },
+          "near_auroc": 0.75106152,
+          "far_auroc": 0.7438997599999999
+        },
+        {
+          "seed": 43,
+          "id_test": {
+            "accuracy": 0.699,
+            "disagreement_rate": 0.02,
+            "work_reduction": 0.667036,
+            "mean_stop_time": 33.2964,
+            "early_exit_error_rate": 0.02206531332744925
+          },
+          "near_ood": {
+            "accuracy": 0.6124,
+            "disagreement_rate": 0.02,
+            "work_reduction": 0.48917999999999995,
+            "mean_stop_time": 51.082,
+            "early_exit_error_rate": 0.025342118601115054
+          },
+          "far_ood": {
+            "accuracy": 0.4984,
+            "disagreement_rate": 0.0138,
+            "work_reduction": 0.54033,
+            "mean_stop_time": 45.967,
+            "early_exit_error_rate": 0.016920058852378617
+          },
+          "near_auroc": 0.75756264,
+          "far_auroc": 0.7480005
+        },
+        {
+          "seed": 44,
+          "id_test": {
+            "accuracy": 0.6866,
+            "disagreement_rate": 0.0218,
+            "work_reduction": 0.660906,
+            "mean_stop_time": 33.9094,
+            "early_exit_error_rate": 0.02427616926503341
+          },
+          "near_ood": {
+            "accuracy": 0.5964,
+            "disagreement_rate": 0.017,
+            "work_reduction": 0.48756999999999995,
+            "mean_stop_time": 51.243,
+            "early_exit_error_rate": 0.021448397678526368
+          },
+          "far_ood": {
+            "accuracy": 0.5124,
+            "disagreement_rate": 0.0116,
+            "work_reduction": 0.522636,
+            "mean_stop_time": 47.7364,
+            "early_exit_error_rate": 0.014388489208633094
+          },
+          "near_auroc": 0.75998732,
+          "far_auroc": 0.74989668
+        },
+        {
+          "seed": 45,
+          "id_test": {
+            "accuracy": 0.6924,
+            "disagreement_rate": 0.0232,
+            "work_reduction": 0.651946,
+            "mean_stop_time": 34.8054,
+            "early_exit_error_rate": 0.026381623834432568
+          },
+          "near_ood": {
+            "accuracy": 0.6172,
+            "disagreement_rate": 0.0124,
+            "work_reduction": 0.45739799999999997,
+            "mean_stop_time": 54.2602,
+            "early_exit_error_rate": 0.016716095982744674
+          },
+          "far_ood": {
+            "accuracy": 0.5018,
+            "disagreement_rate": 0.012,
+            "work_reduction": 0.511444,
+            "mean_stop_time": 48.8556,
+            "early_exit_error_rate": 0.015455950540958269
+          },
+          "near_auroc": 0.7535236,
+          "far_auroc": 0.74796728
+        },
+        {
+          "seed": 46,
+          "id_test": {
+            "accuracy": 0.6936,
+            "disagreement_rate": 0.0216,
+            "work_reduction": 0.676602,
+            "mean_stop_time": 32.3398,
+            "early_exit_error_rate": 0.023658269441401973
+          },
+          "near_ood": {
+            "accuracy": 0.6124,
+            "disagreement_rate": 0.0148,
+            "work_reduction": 0.513854,
+            "mean_stop_time": 48.6146,
+            "early_exit_error_rate": 0.01811949069539667
+          },
+          "far_ood": {
+            "accuracy": 0.5014,
+            "disagreement_rate": 0.0112,
+            "work_reduction": 0.566038,
+            "mean_stop_time": 43.3962,
+            "early_exit_error_rate": 0.01334604385128694
+          },
+          "near_auroc": 0.7549349999999999,
+          "far_auroc": 0.7427033200000001
+        },
+        {
+          "seed": 47,
+          "id_test": {
+            "accuracy": 0.6936,
+            "disagreement_rate": 0.0232,
+            "work_reduction": 0.674798,
+            "mean_stop_time": 32.5202,
+            "early_exit_error_rate": 0.025840944531075962
+          },
+          "near_ood": {
+            "accuracy": 0.5988,
+            "disagreement_rate": 0.02,
+            "work_reduction": 0.5009140000000001,
+            "mean_stop_time": 49.9086,
+            "early_exit_error_rate": 0.025025025025025027
+          },
+          "far_ood": {
+            "accuracy": 0.4916,
+            "disagreement_rate": 0.0108,
+            "work_reduction": 0.527944,
+            "mean_stop_time": 47.2056,
+            "early_exit_error_rate": 0.013677811550151976
+          },
+          "near_auroc": 0.75241696,
+          "far_auroc": 0.7473511800000001
+        },
+        {
+          "seed": 48,
+          "id_test": {
+            "accuracy": 0.69,
+            "disagreement_rate": 0.0262,
+            "work_reduction": 0.6613100000000001,
+            "mean_stop_time": 33.869,
+            "early_exit_error_rate": 0.029405162738496072
+          },
+          "near_ood": {
+            "accuracy": 0.6192,
+            "disagreement_rate": 0.0154,
+            "work_reduction": 0.47433400000000003,
+            "mean_stop_time": 52.5666,
+            "early_exit_error_rate": 0.02015179272441769
+          },
+          "far_ood": {
+            "accuracy": 0.506,
+            "disagreement_rate": 0.0142,
+            "work_reduction": 0.5138659999999999,
+            "mean_stop_time": 48.6134,
+            "early_exit_error_rate": 0.018112244897959182
+          },
+          "near_auroc": 0.75331474,
+          "far_auroc": 0.74668576
+        },
+        {
+          "seed": 49,
+          "id_test": {
+            "accuracy": 0.7072,
+            "disagreement_rate": 0.0254,
+            "work_reduction": 0.673818,
+            "mean_stop_time": 32.6182,
+            "early_exit_error_rate": 0.027705061082024432
+          },
+          "near_ood": {
+            "accuracy": 0.624,
+            "disagreement_rate": 0.0192,
+            "work_reduction": 0.503424,
+            "mean_stop_time": 49.6576,
+            "early_exit_error_rate": 0.023431779350744447
+          },
+          "far_ood": {
+            "accuracy": 0.4822,
+            "disagreement_rate": 0.0122,
+            "work_reduction": 0.543884,
+            "mean_stop_time": 45.6116,
+            "early_exit_error_rate": 0.014684641309581126
+          },
+          "near_auroc": 0.7578676,
+          "far_auroc": 0.7437872
+        },
+        {
+          "seed": 50,
+          "id_test": {
+            "accuracy": 0.7044,
+            "disagreement_rate": 0.0284,
+            "work_reduction": 0.65055,
+            "mean_stop_time": 34.945,
+            "early_exit_error_rate": 0.03145071982281285
+          },
+          "near_ood": {
+            "accuracy": 0.6144,
+            "disagreement_rate": 0.0146,
+            "work_reduction": 0.46641599999999994,
+            "mean_stop_time": 53.3584,
+            "early_exit_error_rate": 0.018780550553125806
+          },
+          "far_ood": {
+            "accuracy": 0.5094,
+            "disagreement_rate": 0.012,
+            "work_reduction": 0.52129,
+            "mean_stop_time": 47.871,
+            "early_exit_error_rate": 0.014940239043824702
+          },
+          "near_auroc": 0.7587183,
+          "far_auroc": 0.74584786
+        },
+        {
+          "seed": 51,
+          "id_test": {
+            "accuracy": 0.7086,
+            "disagreement_rate": 0.018,
+            "work_reduction": 0.635312,
+            "mean_stop_time": 36.4688,
+            "early_exit_error_rate": 0.02043132803632236
+          },
+          "near_ood": {
+            "accuracy": 0.611,
+            "disagreement_rate": 0.0122,
+            "work_reduction": 0.4532820000000001,
+            "mean_stop_time": 54.6718,
+            "early_exit_error_rate": 0.01611199154780771
+          },
+          "far_ood": {
+            "accuracy": 0.5074,
+            "disagreement_rate": 0.0068,
+            "work_reduction": 0.5097480000000001,
+            "mean_stop_time": 49.0252,
+            "early_exit_error_rate": 0.008695652173913044
+          },
+          "near_auroc": 0.75663034,
+          "far_auroc": 0.7457717599999999
+        }
+      ],
+      "aggregated": {
+        "id_test": {
+          "accuracy_mean": 0.6973199999999999,
+          "accuracy_std": 0.007059858355519623,
+          "accuracy_ci95": 0.004375745542876104,
+          "disagreement_rate_mean": 0.02308,
+          "disagreement_rate_std": 0.0028736040089058904,
+          "disagreement_rate_ci95": 0.001781078217260545,
+          "work_reduction_mean": 0.6623262,
+          "work_reduction_std": 0.012521140186101275,
+          "work_reduction_ci95": 0.0077606830905075416,
+          "early_exit_error_rate_mean": 0.025653941040100436,
+          "early_exit_error_rate_std": 0.0031398903145216303,
+          "early_exit_error_rate_ci95": 0.0019461241794102
+        },
+        "near_ood": {
+          "accuracy_mean": 0.6122799999999999,
+          "accuracy_std": 0.00819619423879155,
+          "accuracy_ci95": 0.005080053820187333,
+          "disagreement_rate_mean": 0.016599999999999997,
+          "disagreement_rate_std": 0.00300266548253381,
+          "disagreement_rate_ci95": 0.0018610713473695734,
+          "work_reduction_mean": 0.48423739999999993,
+          "work_reduction_std": 0.019472002322308828,
+          "work_reduction_ci95": 0.012068872076746465,
+          "early_exit_error_rate_mean": 0.021065276768442897,
+          "early_exit_error_rate_std": 0.003432118994811929,
+          "early_exit_error_rate_ci95": 0.00212724939196933
+        },
+        "far_ood": {
+          "accuracy_mean": 0.501,
+          "accuracy_std": 0.008475848040166824,
+          "accuracy_ci95": 0.005253385042046692,
+          "disagreement_rate_mean": 0.01184,
+          "disagreement_rate_std": 0.0020095770699328753,
+          "disagreement_rate_ci95": 0.0012455487722285307,
+          "work_reduction_mean": 0.5305928,
+          "work_reduction_std": 0.01759340647401748,
+          "work_reduction_ci95": 0.010904506306773254,
+          "early_exit_error_rate_mean": 0.01470258075124668,
+          "early_exit_error_rate_std": 0.002462892233612264,
+          "early_exit_error_rate_ci95": 0.0015265164215918356
+        },
+        "near_auroc_mean": 0.7556018019999999,
+        "near_auroc_std": 0.002823712535389525,
+        "far_auroc_mean": 0.74619113,
+        "far_auroc_std": 0.002126917588177788
+      }
+    },
+    "mnist_rf": {
+      "config": {
+        "hard_gate_threshold": 0.7,
+        "delta_id": 0.1,
+        "delta_suspicious": 0.01
+      },
+      "n_runs": 10,
+      "runs": [
+        {
+          "seed": 42,
+          "id_test": {
+            "accuracy": 0.9556,
+            "disagreement_rate": 0.0104,
+            "work_reduction": 0.771446,
+            "mean_stop_time": 22.8554,
+            "early_exit_error_rate": 0.010579857578840285
+          },
+          "near_ood": {
+            "accuracy": 0.1392,
+            "disagreement_rate": 0.0172,
+            "work_reduction": 0.20828599999999997,
+            "mean_stop_time": 79.1714,
+            "early_exit_error_rate": 0.0489749430523918
+          },
+          "far_ood": {
+            "accuracy": 0.1284,
+            "disagreement_rate": 0.0104,
+            "work_reduction": 0.021506000000000025,
+            "mean_stop_time": 97.8494,
+            "early_exit_error_rate": 0.20717131474103587
+          },
+          "near_auroc": 0.96685204,
+          "far_auroc": 0.99457588
+        },
+        {
+          "seed": 43,
+          "id_test": {
+            "accuracy": 0.956,
+            "disagreement_rate": 0.0094,
+            "work_reduction": 0.768002,
+            "mean_stop_time": 23.1998,
+            "early_exit_error_rate": 0.009605558961782138
+          },
+          "near_ood": {
+            "accuracy": 0.141,
+            "disagreement_rate": 0.0212,
+            "work_reduction": 0.20495400000000008,
+            "mean_stop_time": 79.5046,
+            "early_exit_error_rate": 0.060571428571428575
+          },
+          "far_ood": {
+            "accuracy": 0.1504,
+            "disagreement_rate": 0.0096,
+            "work_reduction": 0.028862000000000054,
+            "mean_stop_time": 97.1138,
+            "early_exit_error_rate": 0.1672473867595819
+          },
+          "near_auroc": 0.9674440399999998,
+          "far_auroc": 0.99338516
+        },
+        {
+          "seed": 44,
+          "id_test": {
+            "accuracy": 0.953,
+            "disagreement_rate": 0.0098,
+            "work_reduction": 0.767536,
+            "mean_stop_time": 23.2464,
+            "early_exit_error_rate": 0.010030706243602866
+          },
+          "near_ood": {
+            "accuracy": 0.1352,
+            "disagreement_rate": 0.0104,
+            "work_reduction": 0.1771680000000001,
+            "mean_stop_time": 82.2832,
+            "early_exit_error_rate": 0.032932235592146926
+          },
+          "far_ood": {
+            "accuracy": 0.148,
+            "disagreement_rate": 0.0066,
+            "work_reduction": 0.026787999999999923,
+            "mean_stop_time": 97.3212,
+            "early_exit_error_rate": 0.10543130990415335
+          },
+          "near_auroc": 0.96764036,
+          "far_auroc": 0.99412212
+        },
+        {
+          "seed": 45,
+          "id_test": {
+            "accuracy": 0.9508,
+            "disagreement_rate": 0.01,
+            "work_reduction": 0.76721,
+            "mean_stop_time": 23.279,
+            "early_exit_error_rate": 0.01023541453428864
+          },
+          "near_ood": {
+            "accuracy": 0.133,
+            "disagreement_rate": 0.0118,
+            "work_reduction": 0.18464000000000003,
+            "mean_stop_time": 81.536,
+            "early_exit_error_rate": 0.03524492234169654
+          },
+          "far_ood": {
+            "accuracy": 0.1198,
+            "disagreement_rate": 0.0002,
+            "work_reduction": 0.0348099999999999,
+            "mean_stop_time": 96.519,
+            "early_exit_error_rate": 0.0033444816053511705
+          },
+          "near_auroc": 0.96220092,
+          "far_auroc": 0.99450916
+        },
+        {
+          "seed": 46,
+          "id_test": {
+            "accuracy": 0.9518,
+            "disagreement_rate": 0.0104,
+            "work_reduction": 0.770656,
+            "mean_stop_time": 22.9344,
+            "early_exit_error_rate": 0.010625255414793625
+          },
+          "near_ood": {
+            "accuracy": 0.152,
+            "disagreement_rate": 0.015,
+            "work_reduction": 0.21057400000000004,
+            "mean_stop_time": 78.9426,
+            "early_exit_error_rate": 0.042134831460674156
+          },
+          "far_ood": {
+            "accuracy": 0.144,
+            "disagreement_rate": 0.0032,
+            "work_reduction": 0.03092399999999995,
+            "mean_stop_time": 96.9076,
+            "early_exit_error_rate": 0.056140350877192984
+          },
+          "near_auroc": 0.9687174,
+          "far_auroc": 0.9949723199999999
+        },
+        {
+          "seed": 47,
+          "id_test": {
+            "accuracy": 0.9564,
+            "disagreement_rate": 0.0118,
+            "work_reduction": 0.775062,
+            "mean_stop_time": 22.4938,
+            "early_exit_error_rate": 0.012043274137579097
+          },
+          "near_ood": {
+            "accuracy": 0.1396,
+            "disagreement_rate": 0.0198,
+            "work_reduction": 0.213746,
+            "mean_stop_time": 78.6254,
+            "early_exit_error_rate": 0.0539803707742639
+          },
+          "far_ood": {
+            "accuracy": 0.1258,
+            "disagreement_rate": 0.001,
+            "work_reduction": 0.030312000000000006,
+            "mean_stop_time": 96.9688,
+            "early_exit_error_rate": 0.018656716417910446
+          },
+          "near_auroc": 0.96320144,
+          "far_auroc": 0.99509416
+        },
+        {
+          "seed": 48,
+          "id_test": {
+            "accuracy": 0.9572,
+            "disagreement_rate": 0.009,
+            "work_reduction": 0.76817,
+            "mean_stop_time": 23.183,
+            "early_exit_error_rate": 0.009213759213759214
+          },
+          "near_ood": {
+            "accuracy": 0.1308,
+            "disagreement_rate": 0.0136,
+            "work_reduction": 0.20271399999999995,
+            "mean_stop_time": 79.7286,
+            "early_exit_error_rate": 0.03881278538812785
+          },
+          "far_ood": {
+            "accuracy": 0.0856,
+            "disagreement_rate": 0.0008,
+            "work_reduction": 0.037834000000000034,
+            "mean_stop_time": 96.2166,
+            "early_exit_error_rate": 0.0125
+          },
+          "near_auroc": 0.96401772,
+          "far_auroc": 0.9936811200000001
+        },
+        {
+          "seed": 49,
+          "id_test": {
+            "accuracy": 0.957,
+            "disagreement_rate": 0.0104,
+            "work_reduction": 0.7699320000000001,
+            "mean_stop_time": 23.0068,
+            "early_exit_error_rate": 0.010620915032679739
+          },
+          "near_ood": {
+            "accuracy": 0.1334,
+            "disagreement_rate": 0.0174,
+            "work_reduction": 0.21215800000000007,
+            "mean_stop_time": 78.7842,
+            "early_exit_error_rate": 0.04718004338394794
+          },
+          "far_ood": {
+            "accuracy": 0.1532,
+            "disagreement_rate": 0.0056,
+            "work_reduction": 0.032139999999999946,
+            "mean_stop_time": 96.786,
+            "early_exit_error_rate": 0.0975609756097561
+          },
+          "near_auroc": 0.9653892399999999,
+          "far_auroc": 0.9931193999999999
+        },
+        {
+          "seed": 50,
+          "id_test": {
+            "accuracy": 0.9566,
+            "disagreement_rate": 0.0082,
+            "work_reduction": 0.77152,
+            "mean_stop_time": 22.848,
+            "early_exit_error_rate": 0.008374183006535947
+          },
+          "near_ood": {
+            "accuracy": 0.14,
+            "disagreement_rate": 0.0184,
+            "work_reduction": 0.20041600000000004,
+            "mean_stop_time": 79.9584,
+            "early_exit_error_rate": 0.05336426914153132
+          },
+          "far_ood": {
+            "accuracy": 0.1158,
+            "disagreement_rate": 0.0062,
+            "work_reduction": 0.018383999999999956,
+            "mean_stop_time": 98.1616,
+            "early_exit_error_rate": 0.14351851851851852
+          },
+          "near_auroc": 0.9661878399999999,
+          "far_auroc": 0.9947579999999999
+        },
+        {
+          "seed": 51,
+          "id_test": {
+            "accuracy": 0.9526,
+            "disagreement_rate": 0.01,
+            "work_reduction": 0.76755,
+            "mean_stop_time": 23.245,
+            "early_exit_error_rate": 0.010227040294538761
+          },
+          "near_ood": {
+            "accuracy": 0.1316,
+            "disagreement_rate": 0.018,
+            "work_reduction": 0.204708,
+            "mean_stop_time": 79.5292,
+            "early_exit_error_rate": 0.049944506104328525
+          },
+          "far_ood": {
+            "accuracy": 0.1136,
+            "disagreement_rate": 0.0014,
+            "work_reduction": 0.0283540000000001,
+            "mean_stop_time": 97.1646,
+            "early_exit_error_rate": 0.024475524475524476
+          },
+          "near_auroc": 0.9579872800000001,
+          "far_auroc": 0.99456924
+        }
+      ],
+      "aggregated": {
+        "id_test": {
+          "accuracy_mean": 0.9547000000000001,
+          "accuracy_std": 0.0022684796670898446,
+          "accuracy_ci95": 0.0014060182644617457,
+          "disagreement_rate_mean": 0.00994,
+          "disagreement_rate_std": 0.0009123595782365632,
+          "disagreement_rate_ci95": 0.0005654863252104332,
+          "work_reduction_mean": 0.7697084,
+          "work_reduction_std": 0.002383455776808135,
+          "work_reduction_ci95": 0.0014772811955719287,
+          "early_exit_error_rate_mean": 0.010155596441840031,
+          "early_exit_error_rate_std": 0.000925771606388528,
+          "early_exit_error_rate_ci95": 0.0005737991863829246
+        },
+        "near_ood": {
+          "accuracy_mean": 0.13758,
+          "accuracy_std": 0.005983610949919789,
+          "accuracy_ci95": 0.0037086804898777675,
+          "disagreement_rate_mean": 0.01628,
+          "disagreement_rate_std": 0.003310830711468045,
+          "disagreement_rate_ci95": 0.0020520741351130567,
+          "work_reduction_mean": 0.20193640000000004,
+          "work_reduction_std": 0.011363170149214506,
+          "work_reduction_ci95": 0.007042965825864431,
+          "early_exit_error_rate_mean": 0.04631403358105375,
+          "early_exit_error_rate_std": 0.008414836885676619,
+          "early_exit_error_rate_ci95": 0.005215569936717061
+        },
+        "far_ood": {
+          "accuracy_mean": 0.12845999999999996,
+          "accuracy_std": 0.02004216555165634,
+          "accuracy_ci95": 0.012422262907538223,
+          "disagreement_rate_mean": 0.0045,
+          "disagreement_rate_std": 0.0035363823322712147,
+          "disagreement_rate_ci95": 0.0021918724780424607,
+          "work_reduction_mean": 0.02899139999999999,
+          "work_reduction_std": 0.005488774293045758,
+          "work_reduction_ci95": 0.0034019775524065975,
+          "early_exit_error_rate_mean": 0.08360465789090248,
+          "early_exit_error_rate_std": 0.06818505918919972,
+          "early_exit_error_rate_ci95": 0.042261537528527925
+        },
+        "near_auroc_mean": 0.9649638279999999,
+        "near_auroc_std": 0.003048870571161674,
+        "far_auroc_mean": 0.994278656,
+        "far_auroc_std": 0.0006423132270660416
+      }
+    },
+    "mnist_gbm": {
+      "config": {
+        "hard_gate_threshold": 0.7,
+        "delta_id": 0.1,
+        "delta_suspicious": 0.05
+      },
+      "n_runs": 10,
+      "runs": [
+        {
+          "seed": 42,
+          "id_test": {
+            "accuracy": 0.9274,
+            "disagreement_rate": 0.0114,
+            "work_reduction": 0.732696,
+            "mean_stop_time": 26.7304,
+            "early_exit_error_rate": 0.011947180884510585
+          },
+          "near_ood": {
+            "accuracy": 0.1026,
+            "disagreement_rate": 0.02,
+            "work_reduction": 0.1844920000000001,
+            "mean_stop_time": 81.5508,
+            "early_exit_error_rate": 0.06238303181534623
+          },
+          "far_ood": {
+            "accuracy": 0.0932,
+            "disagreement_rate": 0.0022,
+            "work_reduction": 0.01833399999999996,
+            "mean_stop_time": 98.1666,
+            "early_exit_error_rate": 0.04680851063829787
+          },
+          "near_auroc": 0.96685204,
+          "far_auroc": 0.99457588
+        },
+        {
+          "seed": 43,
+          "id_test": {
+            "accuracy": 0.9248,
+            "disagreement_rate": 0.0096,
+            "work_reduction": 0.733374,
+            "mean_stop_time": 26.6626,
+            "early_exit_error_rate": 0.010052356020942408
+          },
+          "near_ood": {
+            "accuracy": 0.1108,
+            "disagreement_rate": 0.0198,
+            "work_reduction": 0.19349400000000005,
+            "mean_stop_time": 80.6506,
+            "early_exit_error_rate": 0.06
+          },
+          "far_ood": {
+            "accuracy": 0.0786,
+            "disagreement_rate": 0.0022,
+            "work_reduction": 0.029985999999999957,
+            "mean_stop_time": 97.0014,
+            "early_exit_error_rate": 0.039711191335740074
+          },
+          "near_auroc": 0.9674440399999998,
+          "far_auroc": 0.99338516
+        },
+        {
+          "seed": 44,
+          "id_test": {
+            "accuracy": 0.9206,
+            "disagreement_rate": 0.0112,
+            "work_reduction": 0.727936,
+            "mean_stop_time": 27.2064,
+            "early_exit_error_rate": 0.011732662895453593
+          },
+          "near_ood": {
+            "accuracy": 0.1034,
+            "disagreement_rate": 0.0084,
+            "work_reduction": 0.18062600000000006,
+            "mean_stop_time": 81.9374,
+            "early_exit_error_rate": 0.026854219948849106
+          },
+          "far_ood": {
+            "accuracy": 0.0658,
+            "disagreement_rate": 0.0036,
+            "work_reduction": 0.04097200000000001,
+            "mean_stop_time": 95.9028,
+            "early_exit_error_rate": 0.05421686746987952
+          },
+          "near_auroc": 0.96764036,
+          "far_auroc": 0.99412212
+        },
+        {
+          "seed": 45,
+          "id_test": {
+            "accuracy": 0.9242,
+            "disagreement_rate": 0.011,
+            "work_reduction": 0.732702,
+            "mean_stop_time": 26.7298,
+            "early_exit_error_rate": 0.011479858067209352
+          },
+          "near_ood": {
+            "accuracy": 0.101,
+            "disagreement_rate": 0.0154,
+            "work_reduction": 0.2039740000000001,
+            "mean_stop_time": 79.6026,
+            "early_exit_error_rate": 0.0440251572327044
+          },
+          "far_ood": {
+            "accuracy": 0.0842,
+            "disagreement_rate": 0.004,
+            "work_reduction": 0.024966000000000044,
+            "mean_stop_time": 97.5034,
+            "early_exit_error_rate": 0.07575757575757576
+          },
+          "near_auroc": 0.96220092,
+          "far_auroc": 0.99450916
+        },
+        {
+          "seed": 46,
+          "id_test": {
+            "accuracy": 0.9212,
+            "disagreement_rate": 0.0124,
+            "work_reduction": 0.7383500000000001,
+            "mean_stop_time": 26.165,
+            "early_exit_error_rate": 0.012905911740216486
+          },
+          "near_ood": {
+            "accuracy": 0.1092,
+            "disagreement_rate": 0.0224,
+            "work_reduction": 0.1905840000000001,
+            "mean_stop_time": 80.9416,
+            "early_exit_error_rate": 0.06738868832731648
+          },
+          "far_ood": {
+            "accuracy": 0.071,
+            "disagreement_rate": 0.002,
+            "work_reduction": 0.028915999999999942,
+            "mean_stop_time": 97.1084,
+            "early_exit_error_rate": 0.03937007874015748
+          },
+          "near_auroc": 0.9687174,
+          "far_auroc": 0.9949723199999999
+        },
+        {
+          "seed": 47,
+          "id_test": {
+            "accuracy": 0.922,
+            "disagreement_rate": 0.0104,
+            "work_reduction": 0.737592,
+            "mean_stop_time": 26.2408,
+            "early_exit_error_rate": 0.010867293625914315
+          },
+          "near_ood": {
+            "accuracy": 0.103,
+            "disagreement_rate": 0.0142,
+            "work_reduction": 0.18605000000000005,
+            "mean_stop_time": 81.395,
+            "early_exit_error_rate": 0.04407200496585972
+          },
+          "far_ood": {
+            "accuracy": 0.1108,
+            "disagreement_rate": 0.0002,
+            "work_reduction": 0.014372000000000051,
+            "mean_stop_time": 98.5628,
+            "early_exit_error_rate": 0.0053475935828877
+          },
+          "near_auroc": 0.96320144,
+          "far_auroc": 0.99509416
+        },
+        {
+          "seed": 48,
+          "id_test": {
+            "accuracy": 0.9266,
+            "disagreement_rate": 0.0138,
+            "work_reduction": 0.727304,
+            "mean_stop_time": 27.2696,
+            "early_exit_error_rate": 0.014541622760800843
+          },
+          "near_ood": {
+            "accuracy": 0.1044,
+            "disagreement_rate": 0.0214,
+            "work_reduction": 0.1795659999999999,
+            "mean_stop_time": 82.0434,
+            "early_exit_error_rate": 0.06426426426426426
+          },
+          "far_ood": {
+            "accuracy": 0.1004,
+            "disagreement_rate": 0.0012,
+            "work_reduction": 0.04340999999999995,
+            "mean_stop_time": 95.659,
+            "early_exit_error_rate": 0.018072289156626505
+          },
+          "near_auroc": 0.96401772,
+          "far_auroc": 0.9936811200000001
+        },
+        {
+          "seed": 49,
+          "id_test": {
+            "accuracy": 0.9218,
+            "disagreement_rate": 0.013,
+            "work_reduction": 0.73804,
+            "mean_stop_time": 26.196,
+            "early_exit_error_rate": 0.013567104988520142
+          },
+          "near_ood": {
+            "accuracy": 0.0988,
+            "disagreement_rate": 0.0362,
+            "work_reduction": 0.207758,
+            "mean_stop_time": 79.2242,
+            "early_exit_error_rate": 0.10197183098591549
+          },
+          "far_ood": {
+            "accuracy": 0.102,
+            "disagreement_rate": 0.0106,
+            "work_reduction": 0.02960800000000008,
+            "mean_stop_time": 97.0392,
+            "early_exit_error_rate": 0.19413919413919414
+          },
+          "near_auroc": 0.9653892399999999,
+          "far_auroc": 0.9931193999999999
+        },
+        {
+          "seed": 50,
+          "id_test": {
+            "accuracy": 0.9244,
+            "disagreement_rate": 0.0114,
+            "work_reduction": 0.732456,
+            "mean_stop_time": 26.7544,
+            "early_exit_error_rate": 0.01189482470784641
+          },
+          "near_ood": {
+            "accuracy": 0.1048,
+            "disagreement_rate": 0.0204,
+            "work_reduction": 0.18344399999999994,
+            "mean_stop_time": 81.6556,
+            "early_exit_error_rate": 0.06319702602230483
+          },
+          "far_ood": {
+            "accuracy": 0.1374,
+            "disagreement_rate": 0.002,
+            "work_reduction": 0.013430000000000053,
+            "mean_stop_time": 98.657,
+            "early_exit_error_rate": 0.06451612903225806
+          },
+          "near_auroc": 0.9661878399999999,
+          "far_auroc": 0.9947579999999999
+        },
+        {
+          "seed": 51,
+          "id_test": {
+            "accuracy": 0.9246,
+            "disagreement_rate": 0.0138,
+            "work_reduction": 0.734246,
+            "mean_stop_time": 26.5754,
+            "early_exit_error_rate": 0.014426092410620948
+          },
+          "near_ood": {
+            "accuracy": 0.102,
+            "disagreement_rate": 0.0188,
+            "work_reduction": 0.19675399999999998,
+            "mean_stop_time": 80.3246,
+            "early_exit_error_rate": 0.056152927120669056
+          },
+          "far_ood": {
+            "accuracy": 0.0804,
+            "disagreement_rate": 0.0008,
+            "work_reduction": 0.015575999999999923,
+            "mean_stop_time": 98.4424,
+            "early_exit_error_rate": 0.022988505747126436
+          },
+          "near_auroc": 0.9579872800000001,
+          "far_auroc": 0.99456924
+        }
+      ],
+      "aggregated": {
+        "id_test": {
+          "accuracy_mean": 0.92376,
+          "accuracy_std": 0.002172187837181672,
+          "accuracy_ci95": 0.0013463359699569775,
+          "disagreement_rate_mean": 0.0118,
+          "disagreement_rate_std": 0.001338656042454521,
+          "disagreement_rate_ci95": 0.0008297076111498556,
+          "work_reduction_mean": 0.7334695999999999,
+          "work_reduction_std": 0.0036491558256671005,
+          "work_reduction_ci95": 0.0022617702134121523,
+          "early_exit_error_rate_mean": 0.012341490810203507,
+          "early_exit_error_rate_std": 0.0014102593482219687,
+          "early_exit_error_rate_ci95": 0.0008740877998574863
+        },
+        "near_ood": {
+          "accuracy_mean": 0.10400000000000001,
+          "accuracy_std": 0.0034269519984966236,
+          "accuracy_ci95": 0.0021240468544737896,
+          "disagreement_rate_mean": 0.019700000000000002,
+          "disagreement_rate_std": 0.006784246457787336,
+          "disagreement_rate_ci95": 0.004204919518849321,
+          "work_reduction_mean": 0.19067420000000004,
+          "work_reduction_std": 0.00921900929384499,
+          "work_reduction_ci95": 0.005714001159206892,
+          "early_exit_error_rate_mean": 0.05903091506832296,
+          "early_exit_error_rate_std": 0.018609833834244038,
+          "early_exit_error_rate_ci95": 0.011534494511521212
+        },
+        "far_ood": {
+          "accuracy_mean": 0.09237999999999999,
+          "accuracy_std": 0.020217705112104092,
+          "accuracy_ci95": 0.012531063454312246,
+          "disagreement_rate_mean": 0.00288,
+          "disagreement_rate_std": 0.0027959971387682067,
+          "disagreement_rate_ci95": 0.001732976980804996,
+          "work_reduction_mean": 0.025956999999999997,
+          "work_reduction_std": 0.010130997394136462,
+          "work_reduction_ci95": 0.006279257240001552,
+          "early_exit_error_rate_mean": 0.05609279355997434,
+          "early_exit_error_rate_std": 0.05026799776206998,
+          "early_exit_error_rate_ci95": 0.031156427803500045
+        },
+        "near_auroc_mean": 0.9649638279999999,
+        "near_auroc_std": 0.003048870571161674,
+        "far_auroc_mean": 0.994278656,
+        "far_auroc_std": 0.0006423132270660416
+      }
+    }
+  }
+}
